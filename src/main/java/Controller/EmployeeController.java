@@ -49,16 +49,7 @@ public class EmployeeController {
     }
 */
 
-    /*
-    @Autowired
-    private EmployeeService employeeService;
-
-    @RequestMapping(value = "/list")
-    public String employeeList(Model model)
-    {
-        model.addAttribute("employeeList", employeeService.save());
-        return "employeeList";
-    }
+   
 
 */
 
