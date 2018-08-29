@@ -10,6 +10,8 @@ import javax.persistence.*;
 @Entity
 @Table(name = "group")
 public class Group {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String groupName;
 
